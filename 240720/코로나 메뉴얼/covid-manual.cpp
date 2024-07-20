@@ -6,18 +6,20 @@ int main() {
     char coldA, coldB, coldC;
     int cA, cB, cC;
 
-    cin >> coldA >> cA >> coldB >> cB >> coldC >> cC;
+    cin >> coldA >> cA;
+    cin >> coldB >> cB;
+    cin >> coldC >> cC;
 
-    int dangerCount;
+    int dangerCount = 0;
 
     if(coldA == 'Y' && cA >= 37)
-        dangerCount++;
+        dangerCount += 1;
 
     if(coldB == 'Y' && cB >= 37)
-        dangerCount++;
+        dangerCount += 1;
 
     if(coldC == 'Y' && cC >= 37)
-        dangerCount++;
+        dangerCount += 1;
 
     char r = (dangerCount >= 2)? 'E' : 'N';
 
