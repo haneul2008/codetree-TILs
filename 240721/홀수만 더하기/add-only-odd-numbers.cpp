@@ -11,7 +11,7 @@ int main() {
         int j;
         cin >> j;
 
-        if(j % 2 != 0 && j & 3 == 0)
+        if(j % 2 != 0 && j % 3 == 0)
             sum += j;
     }
 
