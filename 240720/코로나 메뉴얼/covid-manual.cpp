@@ -15,10 +15,12 @@ int main() {
 
     if(coldB == 'Y' && cB >= 37)
         dangerCount++;
-        
+
     if(coldC == 'Y' && cC >= 37)
         dangerCount++;
 
-    cout << ((dangerCount >= 2)? 'E' : 'N');
+    char r = (dangerCount >= 2)? 'E' : 'N';
+
+    cout << r;
     return 0;
 }
