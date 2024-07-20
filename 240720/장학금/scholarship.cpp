@@ -6,14 +6,11 @@ int main() {
     int s1, s2;
     cin >> s1 >> s2;
 
-    if(s1 < 90){
-        cout << 0;
-    }
-    else if(s1 >= 90 && s2 >= 95){
-        cout << 100000;
-    }
-    else if(s1 >= 90 && s2 >= 90){
-        cout << 50000;
-    }
+    if(s1 >= 90 && s2 >= 95)
+		cout << 100000;
+	else if(s1 >= 90 && s2 >= 90)
+		cout << 50000;
+	else
+		cout << 0;
     return 0;
 }
