@@ -7,10 +7,10 @@ int main() {
     cin >> a >> b >> c;
 
     int min;
-    if(a < b && a < c){
+    if(a <= b && a <= c){
         min = a;
     }
-    else if(a > b && c > b){
+    else if(a >= b && c >= b){
         min = b;
     }
     else{
