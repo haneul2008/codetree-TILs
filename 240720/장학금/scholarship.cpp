@@ -9,10 +9,10 @@ int main() {
     if(s1 < 90){
         cout << 0;
     }
-    else if(s2 >= 95){
+    else if(s1 >= 90 && s2 >= 95){
         cout << 100000;
     }
-    else if(s2 >= 90){
+    else if(s1 >= 90 && s2 >= 90){
         cout << 50000;
     }
     return 0;
