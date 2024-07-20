@@ -6,7 +6,7 @@ int main() {
     int s1, s2;
     cin >> s1 >> s2;
 
-    if(s1 <= 90){
+    if(s1 < 90){
         cout << 0;
     }
     else if(s2 >= 95){
