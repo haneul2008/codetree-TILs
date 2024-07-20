@@ -6,7 +6,7 @@ int main() {
     int a, b, c;
     cin >> a >> b >> c;
 
-    int max = 0;
+    int max = -100;
 
     if(max < a)
         max = a;
