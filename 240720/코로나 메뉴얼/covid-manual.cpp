@@ -12,8 +12,10 @@ int main() {
 
     if(coldA == 'Y' && cA >= 37)
         dangerCount++;
+
     if(coldB == 'Y' && cB >= 37)
         dangerCount++;
+        
     if(coldC == 'Y' && cC >= 37)
         dangerCount++;
 
